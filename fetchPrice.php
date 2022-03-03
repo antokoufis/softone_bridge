@@ -31,7 +31,6 @@ $err = curl_error($curl);
 //Sting to Json Object
 $json = json_decode($response, true);
 $rule_id = 1;
-$last_rule_id = 0;
 $uniques = [];
 $rules = [];
 $arrayToPush = [];
